@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+}
+
+.celular{
+    height: 99px;
+    width: 99px;
+}
+
+@media screen and (max-width:375px){
+    .div1{
+        display: block;
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: green;
+    }
+    .div2,.div3,.div4,.div5{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width:376px) and (max-width:896px){
+    .div1{
+        display: block;
+        min-width: 100vw;
+        min-height: 50vh;
+        background-color: green;
+    }
+    .div2{
+        display: block;
+        min-width: 100vw;
+        min-height: 50vh;
+        background-color: blue;
+    }
+    .div3,.div4,.div5{
+        display: none;
+    }
+}
+
+@media screen and (min-width:897px) and (max-width:1080px){
+    .div1,.div4{
+        display: block;
+        min-width: 100vw;
+        min-height: 20vh;
+        background-color: green;
+    }
+    .div2,.div5{
+        display: block;
+        min-width: 100vw;
+        min-height: 20vh;
+        background-color: blue;
+    }
+    .div3{
+        display: block;
+        min-width: 100vw;
+        min-height: 20vh;
+        background-color: rgb(82, 82, 88);
+    }
+}
+

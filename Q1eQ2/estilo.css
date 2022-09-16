@@ -1,0 +1,67 @@
+body{
+    height: 100%;
+}
+
+.body  {
+    height: 99rem;
+    width: 99rem;
+}
+
+@media (min-width:320px){
+    .body{
+        background: black;
+    }
+}
+
+@media (min-width:480px){
+    .body{
+        background: blue;
+    }
+}
+
+@media (min-width:600px){
+    .body{
+        background: green;
+    }
+}
+
+@media (min-width:768px){
+    .body{
+        background: yellow;
+    }
+}
+
+@media (min-width:800px){
+    .body{
+        background: brown;
+    }
+}
+
+
+@media (min-width:1024px){
+    .body{
+        background: darkblue;
+    }
+}
+
+
+@media (min-width:1280px){
+    .body{
+        background: darkgreen;
+    }
+}
+
+
+@media (min-width:1440px){
+    .body{
+        background: darkred;
+    }
+}
+
+.orientacao{
+    display: none;
+}
+
+@media(orientation: landscape){
+   .orientacao{display: block;} 
+}
